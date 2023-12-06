@@ -4,5 +4,5 @@ Cleans and creates training and test files for Gossipcop and Politifact datasets
 ### Create conda env "data_clean"
 `conda env create -f env.yml`
 
-### Clean Data
+### Clean Data and Create Train/Test Sets
 `python clean_data.py -dataset [gossipcop, politifact]`
