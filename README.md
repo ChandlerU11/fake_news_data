@@ -1,5 +1,5 @@
 # fake_news_data
-Cleans and creates training and test files for Gossipcop and Politifact datasets.
+Cleans and creates training and test files for Gossipcop and Politifact datasets. The same training and test sets are used used across all adversary and classifier training scripts. 
 
 ### Clean Data
 `python clean_data.py -dataset [gossipcop, politifact]`
