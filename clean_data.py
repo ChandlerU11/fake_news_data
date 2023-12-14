@@ -116,7 +116,8 @@ if __name__ == '__main__':
     df['id'] = ids
     df['content'] = contents
     df['comments'] = comments
-    df['label'] = [np.argmax(x) for x in labels]
+    print(labels)
+    df['label'] = labels
     
     df_titles = pd.read_csv('data_files/' + args.dataset + '_title_no_ignore.tsv', sep = '\t', names = ['id', 'title'])
     print(df_titles)
